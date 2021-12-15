@@ -1,0 +1,65 @@
+
+#container {
+  width: 100%;
+  margin: 0px auto;
+  min-height: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 120px;
+  /* background-color: #acacac; */
+}
+
+#left-sidebar {
+  width: 18%;
+  height: 100%;
+  min-height: 100%;
+  /* background-color: #e9e9e9; */
+  float: left;
+}
+
+#contents {
+  width: 82%;
+  height: 100%;
+  min-height: 100%;
+  /* background-color: #f7f7f7; */
+  float: left;
+}
+
+#body-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#body-content {
+  margin-top: 100px;
+  padding-bottom: 80px; /* footer의 높이 */
+}
+
+footer {
+  width: 100%;
+  height: 80px; /* footer의 높이 */
+  position: absolute;  
+  bottom: 0;
+  left: 0;
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+
+.titleBanner {
+  /* display: inline-block; */
+  /* float: center; */
+  text-align: center;
+}
+
+.socialButton {
+  float: right;
+}
+
+#darkModeBox {
+  margin-top: 7px;
+  float: left;
+  width: 100px;
+  height: 46.66px;
+}

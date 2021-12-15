@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <script src="js\GoogleCharts.js"></script>
+    <script src="js\jquery.js"></script>
+    <script src="js\7day.js"></script>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\darkmode.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header id="header">
+        <div id="darkModeBox">
+          <input type="checkbox" onclick="checkActive()" class="switch">
+          <div class="opt-1">라이트</div>
+          <div class="opt-2">다크</div>
+        </input>
+        </div>
+        <script src="js\darkmode.js"></script>
+      </header>
+
+      <left-sidebar id="left-sidebar">
+        <h1>THIS IS</h1>
+        <h1>LEFT-SIDEBAR</h1>
+      </left-sidebar>
+
+      <contents id="contents">
+        <h1 align="center">THIS IS CONTENTS</h1>
+        <div id="chart_div"></div>
+      </contents>
+
+      <footer class="footer">
+        <p align="center">
+          © 2021. 김은행 All Rights Reserved.
+        <br/>
+          Powerd by Github Pages
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
