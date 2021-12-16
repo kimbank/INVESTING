@@ -27,19 +27,25 @@ function drawBackgroundColor() {
     colors: ["green", "#008000"],
 
     vAxis: {
+      textPosition: "none",
       color: "transparent",
-      baselineColor: "transparent",
-      gridlines: { color: "transparent" },
-      textStyle: { color: "transparent" },
+      baselineColor: "none",
+      gridlines: { color: "none" },
+      // textStyle: { color: "transparent" },
     },
 
     hAxis: {
-      color: "transparent",
-      baselineColor: "transparent",
-      gridlines: { color: "transparent" },
+      // textPosition: "none",
+      // color: "transparent",
+      baselineColor: "none",
+      gridlines: { color: "none" },
+      textStyle: { color: "gray" }
     },
 
-    legend: { position: "top" },
+    legend: { 
+      position: "none"
+      // position: "top" 
+    }
   };
 
   var chart = new google.visualization.LineChart(
